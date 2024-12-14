@@ -1,0 +1,56 @@
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.main-section-venta {
+    background-image: url('../img/img-venta.jpg');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.main-section-alquiler {
+    background-image: url('../img/img-alquiler.jpg');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+section {
+    padding: 20px 0;
+}
+
+.card {
+    flex-grow: 1;
+}
+
+.card img{
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f6c955;
+    color: #000000;
+}
